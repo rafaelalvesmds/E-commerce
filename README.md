@@ -1,4 +1,6 @@
-<h1 align="center">🚀 Projeto E-commerce 🚀</h1>
+<h1 align="center">🚀Projeto E-commerce 🚀</h1>
+<h3 align="center">Em andamento.. 📝 </h3>
+
 <br/> <br/>
 
 
