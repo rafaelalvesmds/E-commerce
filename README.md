@@ -37,7 +37,7 @@
 
 <h2 align="center">Criando Base de Dados</h2>
 
-📁[Models/Base/BaseEntity.cs]
+📁[Model/Base/BaseEntity.cs]
 
 ```bash
 [Key]
@@ -46,7 +46,7 @@
 public long Id { get; set; }
 ```
 
-📁[Models/Context/MySQLContext.cs]
+📁[Model/Context/MySQLContext.cs]
 
 ```bash
     public class MySQLContext : DbContext
@@ -71,7 +71,7 @@ builder.Services.AddDbContext<MySQLContext>
 
 <h2 align="center">Criando Entidade </h2>
 
-📁[Models/Product.cs]
+📁[Model/Product.cs]
 
 ```bash
 {
@@ -299,7 +299,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 <br/>
 
 <h2 align="center">Populando o Banco de Dados</h2>
-📁[Models/Context/MySQLContext.cs]
+📁[Model/Context/MySQLContext.cs]
 
 ````bash
 public class MySQLContext : DbContext
@@ -361,7 +361,7 @@ update-database
 
 <h2 align="center">Criando Model</h2>
 
-📁 [Models/ProductModel.cs]
+📁 [Model/ProductModel.cs]
 ````bash
     public class ProductModel
     {
